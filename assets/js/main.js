@@ -93,15 +93,4 @@ if ( typeof define === 'function' && define.amd ) {
   }
 
   triggerBttn.addEventListener( 'click', toggleNavigation );
-
-  var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-
-  if (isSafari) {
-    var elements = document.querySelectorAll('section');
-    for (var i = 0; i < elements.length; ++i) {
-      var curr_node = elements[i];
-      var cs = window.getComputedStyle(curr_node, null);
-      curr_node.style.height = cs['height'];
-    }
-  }
 })();
