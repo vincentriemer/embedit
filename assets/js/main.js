@@ -93,4 +93,6 @@ if ( typeof define === 'function' && define.amd ) {
   }
 
   triggerBttn.addEventListener( 'click', toggleNavigation );
+
+  
 })();
