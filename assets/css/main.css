@@ -2624,7 +2624,6 @@ div#content {
 section {
   max-width: 640px;
   margin: 0 auto;
-  border-bottom: 1px solid #ddd;
   padding-bottom: 15px;
 }
 @media (min-width: 800px) {
@@ -2632,9 +2631,8 @@ section {
     position: relative;
     padding-bottom: 0;
     max-width: 1024px;
-    min-height: 800px;
+    min-height: 700px;
     height: 100vh;
-    border-bottom: 0px;
   }
   section:after {
     content: "";
@@ -2661,7 +2659,7 @@ section {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     float: left;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 }
 
@@ -2765,7 +2763,7 @@ section#intro p {
    ========================================================================== */
 .showcase {
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin-bottom: 15px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2778,7 +2776,7 @@ section#intro p {
     width: 534px;
     width: -webkit-calc(100% - 450px - 40px);
     width: calc(100% - 450px - 40px);
-    height: 100%;
+    height: 101%;
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
